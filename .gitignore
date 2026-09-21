@@ -1,0 +1,53 @@
+# Build output
+bin/
+obj/
+
+# SQLite database file
+*.db
+*.db-shm
+*.db-wal
+
+# Publish output
+publish/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.suo
+*.rsuser
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Logs & temp
+*.log
+*.tmp
+
+# Environment / secrets
+appsettings.Development.json
+appsettings.*.local.json
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Production.json
+*.pfx
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
